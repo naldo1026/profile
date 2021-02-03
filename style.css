@@ -1,5 +1,8 @@
 body {
-  background: #F7F9FC;
+  background-image: url("images/file.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #F7F9FC;
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
@@ -50,6 +53,8 @@ a:hover {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .btn-blue:hover {
   background-color: black;
