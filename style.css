@@ -8,6 +8,16 @@ body {
   font-size: 17px;
   font-weight: lighter;
 }
+.box {
+  margin: 0px 30px;
+  padding: 0px 110px;
+}
+.fas {
+  font-size: 40px
+}
+.list-group-item {
+  height: 120px;
+}
 .card-white p {
   margin-top: 20px;
 }
@@ -39,7 +49,13 @@ a:hover {
   width: 700px;
   margin: 40px auto;
 }
-
+.list-group {
+  position: relative;
+}
+#new{
+  position: absolute;
+  bottom: 20px;
+}
 .card-white {
   background-color: white;
   padding: 40px;
@@ -59,6 +75,7 @@ a:hover {
   display: inline-block;
   margin-bottom: 20px;
   margin-top: -20px;
+  text-decoration: none;
 }
 .btn-blue:hover {
   background-color: black;
